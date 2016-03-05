@@ -122,12 +122,52 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MaintenanceController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CDN\Js\common.js" />
+    <Content Include="CDN\Js\Lib\angular-sanitize.js" />
+    <Content Include="CDN\Js\Lib\angular.js" />
+    <Content Include="CDN\Js\Lib\coin-slider.js" />
+    <Content Include="CDN\Js\Lib\coin-slider.min.js" />
+    <Content Include="CDN\Js\Lib\jquery-1.10.2.js" />
+    <Content Include="CDN\Js\Lib\jquery-1.10.2.min.js" />
+    <Content Include="CDN\Js\Lib\jquery-ui-1.10.4.js" />
+    <Content Include="CDN\Js\Lib\jquery-ui-1.10.4.min.js" />
+    <Content Include="CDN\Js\Lib\jquery.extend.js" />
+    <Content Include="CDN\Js\Lib\json2.js" />
+    <Content Include="CDN\Js\Lib\jsrender.js" />
+    <Content Include="CDN\Themes\1\css\style.css" />
+    <Content Include="CDN\Themes\1\images\banner-1.jpg" />
+    <Content Include="CDN\Themes\1\images\banner-2.jpg" />
+    <Content Include="CDN\Themes\1\images\banner-3.jpg" />
+    <Content Include="CDN\Themes\1\images\banner.jpg" />
+    <Content Include="CDN\Themes\1\images\bg-header.jpg" />
+    <Content Include="CDN\Themes\1\images\bg-sprite.png" />
+    <Content Include="CDN\Themes\1\images\bg-sprite2.png" />
+    <Content Include="CDN\Themes\1\images\detail-img.jpg" />
+    <Content Include="CDN\Themes\1\images\favicon.ico" />
+    <Content Include="CDN\Themes\1\images\favicon.png" />
+    <Content Include="CDN\Themes\1\images\logo.png" />
+    <Content Include="CDN\Themes\1\images\main-img.jpg" />
+    <Content Include="CDN\Themes\1\images\product-img-1.jpg" />
+    <Content Include="CDN\Themes\1\images\product-img-2.jpg" />
+    <Content Include="CDN\Themes\1\images\product-img-3.jpg" />
+    <Content Include="CDN\Themes\1\images\product-img-4.jpg" />
+    <Content Include="CDN\Themes\1\images\product-img-5.jpg" />
+    <Content Include="CDN\Themes\1\images\sm-banner1.png" />
+    <Content Include="CDN\Themes\1\images\sm-banner2.png" />
+    <Content Include="CDN\Themes\1\images\sm-banner3.png" />
+    <Content Include="CDN\Themes\1\images\sprite.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -211,10 +251,19 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Maintenance\index.cshtml" />
+    <Content Include="Views\Shared\_ErrorLayout.cshtml" />
+    <Content Include="Views\About\index.cshtml" />
+    <Content Include="Views\Products\index.cshtml" />
+    <Content Include="Views\Products\ProductDetails.cshtml" />
+    <Content Include="Views\Contact\index.cshtml" />
+    <Content Include="Views\Error\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="CDN\Download\" />
+    <Folder Include="CDN\Upload\Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
