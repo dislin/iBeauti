@@ -130,6 +130,8 @@ a.product-img:hover .product-name{ color: #918800; border-color: #918800; }
 .right-content { float:left; width:700px; margin-top: 30px; font-size: 1.2em; }
 .content-title { font-size: 1.8em; color: #00a6ac; padding: 10px 0; font-weight: normal;}
 .main-img { margin: 20px 0 30px 0; }
+.right-content .news-c { width: 95%; }
+.right-content .news-c .news-outline { width: 680px; }
 
 .content-c .product-img { margin: 25px 40px 75px 0; }
 .content-c .product-img .product-name { font-size: 1.2em; }
