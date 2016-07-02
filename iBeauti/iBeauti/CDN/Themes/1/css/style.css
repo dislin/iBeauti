@@ -70,18 +70,18 @@ body.application .application .menu-item, body.careers .careers .menu-item, body
 .banner-c { width: 960px; height: 440px;  }
 .body-content { margin-top: 2px; }
 
-.hot-product-sec { border-top: 1px solid #6afaff; border-bottom: 1px solid #6afaff; }
+.hot-product-sec { border-top: 1px solid #6afaff; border-bottom: 1px solid #cdc114; }
 .sec-title-txt { font-size: 2.2em; color: #009ca1; font-weight: normal; padding: 25px 0; }
 .product-desc { display: none; }
-.product-img { border: 1px solid #33e3e3; border-radius: 3px; margin: 0 36px 80px 35px;  display: inline-block; position: relative; } 
+.product-img { border: 1px solid #cdc114; border-radius: 3px; margin: 0 36px 80px 35px;  display: inline-block; position: relative; } 
 .product-img.first-m-i { margin-left: 0; }
 .product-img.last-m-i { margin-right: 0; }
 a.product-img:hover .product-desc { display: block; padding: 3%; line-height: 20px; color: #666; position: absolute; padding-top: 10px; padding-bottom: 10px; top: 0px; left: 0; width: 94%; min-height: 16%; background: url(../images/bg-sprite2.png) repeat-x 0 0;font-size: 1.8em; text-align: center; vertical-align: middle;}
-.product-name { display: block; position: absolute; margin-top: 3px; width: 100%; padding-top: 10px; line-height: 20px; padding-bottom: 10px; min-height: 30%; color: #009ca1; text-align: center; border: 1px solid #62f6f6; border-radius: 3px; vertical-align: middle; font-size: 1.5em; }
+.product-name { display: block; position: absolute; margin-top: 3px; width: 100%; padding-top: 10px; line-height: 20px; padding-bottom: 10px; min-height: 30%; color: #009ca1; text-align: center; border: 1px solid #cdc114; border-radius: 3px; vertical-align: middle; font-size: 1.5em; }
 a.product-img:hover .product-name{ color: #918800; border-color: #918800; }
 
 .news-c { float: left; width: 70%; margin-right: 4.5%; }
-.about-intro { float: left; width: 23.5%; border-left: 1px solid #a5f6f6; margin-top: 30px; padding-left: 15px; }
+.about-intro { float: left; width: 23.5%; border-left: 1px solid #cdc114; margin-top: 30px; padding-left: 15px; }
 .about-intro .sec-title-txt { padding-top: 0; }
 .title { font-size: 26px; color: #82b73a; text-transform: uppercase; margin-bottom: 40px; font-weight: normal; position: relative; padding-left: 60px; }
 .title-icon { display: inline-block; position: absolute; width: 50px; height: 50px; left: 0; top: 0; } 
